@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Procesador Service Tags Dell</title>
+</head>
+<body>
+    <h1>Subir archivo CSV</h1>
+    <form method=post enctype=multipart/form-data action="{{ url_for('procesar') }}">
+        <input type=file name=archivo>
+        <input type=submit value=Procesar>
+    </form>
+</body>
+</html>
